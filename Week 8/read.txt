@@ -1,0 +1,2 @@
+Even if all the input features are on very similar scales, we should still perform mean normalization (so that each feature has zero mean) before running PCA.
+If you do not perform mean normalization, PCA will rotate the data in a possibly undesired way.
